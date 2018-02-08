@@ -44,6 +44,11 @@ You can install it with the standard Settings at the Standard Place - unless you
 
 1. Go to https://git-scm.com/downloads and download Git for your OS.
 2. Install it with Standard-Settings (Git-GUI is not really necessary, but it's a nice tool. In this Tutorial, only the Git Bash - Console is used and it's commands explained though)
-3. Create a folder named 'workspace_javabasics' 
+3. Create a folder named 'workspace_javabasics' at a Location of your Choice (e.g. C:\dev\projects\workspace_javabascis)
+4. Open Eclipse and search for this folder to use as a Workspace.
+[_Hint: Copy-Paste the Eclipse-Shortcut from your Desktop > Rename it to 'JavaBasics' > Right-Click > Properties > Add '-data [your workspace-path]' behind what's written in the Goal-Field > Now you have an Eclipse-Shortcut that always opens this Workspace_]
+5. In Eclipse, click the Window-Icon with the Plus in the top right corner, choose Git and Open this Perspective.
+6. In the Git-Perspective, Click 'Clone a Git repository' and enter the URL to this Git there. I'd also advise you to fill out the User- and Password-Fields with your GIt-Credentials as well.
+
 
 ### tbd
