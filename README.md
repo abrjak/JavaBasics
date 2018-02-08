@@ -1,4 +1,4 @@
-# JavaBasics
+# JavaBasics (in Work) - Last Update: 08.02.2018 
 
 This Git Project is aimed at young programmers that want to look into the World of Java.
 No previous experience with programming is required to understand this Project.
@@ -8,7 +8,7 @@ Be advised that the knowledge being presented was gained at the Regional IT Scho
 
 The Classes and Files in this project were made for young programmers to read and learn but also try out the knowledge they gained. Especially Classes with "Exercise"-Suffix are made to complete the given task by oneself and to test other functionalities.
 
-## Contents
+## Content
 ### Installing Java
 
 Go to http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html (if the link is not working, simply google for 'Java jdk8 download' and click the link to the Oracle-Site.
@@ -46,9 +46,35 @@ You can install it with the standard Settings at the Standard Place - unless you
 2. Install it with Standard-Settings (Git-GUI is not really necessary, but it's a nice tool. In this Tutorial, only the Git Bash - Console is used and it's commands explained though)
 3. Create a folder named 'workspace_javabasics' at a Location of your Choice (e.g. C:\dev\projects\workspace_javabascis)
 4. Open Eclipse and search for this folder to use as a Workspace.
+
 [_Hint: Copy-Paste the Eclipse-Shortcut from your Desktop > Rename it to 'JavaBasics' > Right-Click > Properties > Add '-data [your workspace-path]' behind what's written in the Goal-Field > Now you have an Eclipse-Shortcut that always opens this Workspace_]
-5. In Eclipse, click the Window-Icon with the Plus in the top right corner, choose Git and Open this Perspective.
-6. In the Git-Perspective, Click 'Clone a Git repository' and enter the URL to this Git there. I'd also advise you to fill out the User- and Password-Fields with your GIt-Credentials as well.
+
+#### Cloning with Eclipse
+
+1. In Eclipse, click the Window-Icon with the Plus in the top right corner, choose Git and Open this Perspective.
+2. In the Git-Perspective, Click 'Clone a Git repository' and enter the URL to this Git there. I'd also advise you to fill out the User- and Password-Fields with your GIt-Credentials as well.
+3. Right-Click on the cloned Repository and choose 'import Projects' > Import JavaBasics with default Settings > You're good to go.
+
+#### Cloning with Git Bash
+
+tbd
 
 
+## In which order you should work through this Project
+
+I suggest working through the packages the following order:
+
+- ch.baloise.it.theory
+- ch.baloise.it.helloworld
+- ch.baloise.it.helloname
+- ch.baloise.it.calculator
+	- Addition
+	- SubtractionExercise
+	- CalculatorExercise
+- ch.baloise.it.finance
+	- ContinuityExample
+	- FinanceToolExercise
+- ch.baloise.it.acessibility
+	- ClassVariables
+	- ClassVariablesTest
 ### tbd
