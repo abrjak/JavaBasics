@@ -11,7 +11,7 @@ The Classes and Files in this project were made for young programmers to read an
 ## Contents
 ### Installing Java
 
-Go to http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html (if the link is not working, simply search for 'Java jdk8 download' and click the link to the Oracle-Site.
+Go to http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html (if the link is not working, simply google for 'Java jdk8 download' and click the link to the Oracle-Site.
 Check the Radio Button 'Accept License Agreement' and Download the Java Version compatible with your OS.
 In the Installation-Interface you can keep all Standard Settings and Install Java at the Default Location.
 To check the Installation, open a Console (Win+CMD) and type 'java -version'
@@ -31,12 +31,19 @@ If this Path is not correct or returns an error, do these Steps (Win7):
 1. In the File Explorer, move to your JDK-Folder (usually C:\Program Files\Java\... depending on your OS) > Copy the Path
 2. Windows > Right-Click on 'Computer' > Properties > Advanced System Settings > Environment Variables
 3. In the 2nd List, search for the entry 'JAVA_HOME' or create a new one with this name if you can't find it.
-4. Paste the copied Path from 
+4. Paste the copied Path from Step 1. and save the Element
 
-
-
-###
 
 ### Installing an IDE - Eclipse
+
+Go to http://www.eclipse.org/downloads/eclipse-packages/ and Download the Eclipse Installer for your OS-Version
+OR directly Download the 'Eclipse IDE for Java EE Developers'-Program.
+You can install it with the standard Settings at the Standard Place - unless you have your own way of managing installed Programs.
+
 ### Pulling this Project
+
+1. Go to https://git-scm.com/downloads and download Git for your OS.
+2. Install it with Standard-Settings (Git-GUI is not really necessary, but it's a nice tool. In this Tutorial, only the Git Bash - Console is used and it's commands explained though)
+3. Create a folder named 'workspace_javabasics' 
+
 ### tbd
