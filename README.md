@@ -17,14 +17,18 @@ In the Installation-Interface you can keep all Standard Settings and Install Jav
 To check the Installation, open a Console (Win+CMD) and type 'java -version'
 
 Example:
+
 java version "1.8.0_111"
+
 Java(TM) SE Runtime Environment (build 1.8.0_111-b14)
+
 Java HotSpot(TM) 64-Bit Server VM (build 25.111-b14, mixed mode)
 
 Also, check if your JAVA_HOME-Environment-Variable is set.
 In the Console, type 'echo %JAVA_HOME%' and you should see the path to your jdk8-Folder as response.
 
 Example:
+
 C:\Program Files\Java\jdk1.8.0_111
 
 If this Path is not correct or returns an error, do these Steps (Win7):
@@ -47,7 +51,7 @@ You can install it with the standard Settings at the Standard Place - unless you
 3. Create a folder named 'workspace_javabasics' at a Location of your Choice (e.g. C:\dev\projects\workspace_javabascis)
 4. Open Eclipse and search for this folder to use as a Workspace.
 
-[_Hint: Copy-Paste the Eclipse-Shortcut from your Desktop > Rename it to 'JavaBasics' > Right-Click > Properties > Add '-data [your workspace-path]' behind what's written in the Goal-Field > Now you have an Eclipse-Shortcut that always opens this Workspace_]
+_Hint: Copy-Paste the Eclipse-Shortcut from your Desktop > Rename it to 'JavaBasics' > Right-Click > Properties > Add '-data [your workspace-path]' behind what's written in the Goal-Field > Now you have an Eclipse-Shortcut that always opens this Workspace_
 
 #### Cloning with Eclipse
 
@@ -57,12 +61,14 @@ You can install it with the standard Settings at the Standard Place - unless you
 
 #### Cloning with Git Bash
 
-tbd
+1. Open the Git Bash Console and navigate to your workspace folder.
+2. Type 'git clone https://github.com/abrjak/JavaBasics' to clone this Project
+3. Start Eclipse and if you can see the JavaBasics-Project-Folder, you're good to go. Otherwise, import the Project by clicking File > Open Projects from FileSystem...
 
 
 ## In which order you should work through this Project
 
-I suggest working through the packages the following order:
+I suggest working through the packages in the following order:
 
 - ch.baloise.it.theory
 - ch.baloise.it.helloworld
@@ -77,4 +83,5 @@ I suggest working through the packages the following order:
 - ch.baloise.it.acessibility
 	- ClassVariables
 	- ClassVariablesTest
+	
 ### tbd
